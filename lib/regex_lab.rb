@@ -1,9 +1,9 @@
 require 'pry'
 def starts_with_a_vowel?(word)
-  if word.match(/\A[aeiou]/)
-    true
-  else
+  if word.match(/\A[aeiou]/) == nil
     false
+  else
+    true
   end
 end
 
